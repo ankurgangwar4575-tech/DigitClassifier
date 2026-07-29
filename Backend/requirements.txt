@@ -1,0 +1,5 @@
+fastapi
+uvicorn[standard]
+torch
+pillow
+python-multipart
