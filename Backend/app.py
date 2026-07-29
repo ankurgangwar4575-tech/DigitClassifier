@@ -17,7 +17,7 @@ BASE_DIR = Path(__file__).resolve().parent
 MODELS_DIR = BASE_DIR / "models"
 DEVICE = torch.device("cpu")
 ALLOWED_ORIGINS = os.getenv(
-    "ALLOWED_ORIGINS", "http://localhost:5173,http://127.0.0.1:5173"
+    "ALLOWED_ORIGINS", "https://classifydigit.vercel.app"
 ).split(",")
 
 
