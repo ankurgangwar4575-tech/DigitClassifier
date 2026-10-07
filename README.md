@@ -1,15 +1,15 @@
 # 🔢 MNIST Digit Classifier
 
-A full-stack web application that recognizes handwritten digits using three trained PyTorch models: CNN, RNN, and LSTM. Select a model, upload a digit image, and receive the predicted digit, confidence, inference time, and test accuracy.
+A full-stack web application that recognizes handwritten digits using three trained PyTorch models: CNN, RNN, and LSTM. Select a model, upload a digit image, and receive the predicted digit, confidence, inference time, and test accuracy
 
 ## ✨ Features
 
-- Choose between CNN, RNN, and LSTM models.
-- Upload a PNG or JPG handwritten-digit image.
-- Automatic conversion to MNIST-compatible `28 × 28` grayscale input.
-- Automatic inversion for common black-on-white uploaded images.
-- Displays prediction confidence, inference time, and model accuracy.
-- Modern responsive React interface.
+- Choose between CNN, RNN, and LSTM models
+- Upload a PNG or JPG handwritten-digit image
+- Automatic conversion to MNIST-compatible `28 × 28` grayscale input
+- Automatic inversion for common black-on-white uploaded images
+- Displays prediction confidence, inference time, and model accuracy
+- Modern responsive React interface
 
 ## 📊 Model performance
 
